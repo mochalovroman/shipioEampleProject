@@ -14,11 +14,11 @@
 		<string>https://github.com/mochalovroman/shipioEampleProject.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>shipioEampleProject.xcworkspace</string>
+	<string>shipioEampleProject.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>B0828903668803EA439C001F3AA858CF3E71A005</key>
-		<string>..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/mochalovroman/shipioEampleProject.git</string>
