@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E0B0EF21B275B4200AE76DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0B0EF11B275B4200AE76DA /* main.m */; };
+		7E0B0EF51B275B4200AE76DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0B0EF41B275B4200AE76DA /* AppDelegate.m */; };
+		7E0B0EF81B275B4200AE76DA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0B0EF71B275B4200AE76DA /* MasterViewController.m */; };
+		7E0B0EFB1B275B4200AE76DA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0B0EFA1B275B4200AE76DA /* DetailViewController.m */; };
+		7E0B0EFE1B275B4200AE76DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0B0EFC1B275B4200AE76DA /* Main.storyboard */; };
+		7E0B0F001B275B4200AE76DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E0B0EFF1B275B4200AE76DA /* Images.xcassets */; };
+		7E0B0F031B275B4200AE76DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E0B0F011B275B4200AE76DA /* LaunchScreen.xib */; };
+		7E0B0F0F1B275B4200AE76DA /* shipioEampleProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0B0F0E1B275B4200AE76DA /* shipioEampleProjectTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E0B0F091B275B4200AE76DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E0B0EE41B275B4200AE76DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E0B0EEB1B275B4200AE76DA;
+			remoteInfo = shipioEampleProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E0B0EEC1B275B4200AE76DA /* shipioEampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shipioEampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E0B0EF01B275B4200AE76DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E0B0EF11B275B4200AE76DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E0B0EF31B275B4200AE76DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E0B0EF41B275B4200AE76DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E0B0EF61B275B4200AE76DA /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		7E0B0EF71B275B4200AE76DA /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		7E0B0EF91B275B4200AE76DA /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		7E0B0EFA1B275B4200AE76DA /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		7E0B0EFD1B275B4200AE76DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E0B0EFF1B275B4200AE76DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7E0B0F021B275B4200AE76DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7E0B0F081B275B4200AE76DA /* shipioEampleProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shipioEampleProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E0B0F0D1B275B4200AE76DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E0B0F0E1B275B4200AE76DA /* shipioEampleProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shipioEampleProjectTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E0B0EE91B275B4200AE76DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0B0F051B275B4200AE76DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E0B0EE31B275B4200AE76DA = {
+			isa = PBXGroup;
+			children = (
+				7E0B0EEE1B275B4200AE76DA /* shipioEampleProject */,
+				7E0B0F0B1B275B4200AE76DA /* shipioEampleProjectTests */,
+				7E0B0EED1B275B4200AE76DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E0B0EED1B275B4200AE76DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E0B0EEC1B275B4200AE76DA /* shipioEampleProject.app */,
+				7E0B0F081B275B4200AE76DA /* shipioEampleProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E0B0EEE1B275B4200AE76DA /* shipioEampleProject */ = {
+			isa = PBXGroup;
+			children = (
+				7E0B0EF31B275B4200AE76DA /* AppDelegate.h */,
+				7E0B0EF41B275B4200AE76DA /* AppDelegate.m */,
+				7E0B0EF61B275B4200AE76DA /* MasterViewController.h */,
+				7E0B0EF71B275B4200AE76DA /* MasterViewController.m */,
+				7E0B0EF91B275B4200AE76DA /* DetailViewController.h */,
+				7E0B0EFA1B275B4200AE76DA /* DetailViewController.m */,
+				7E0B0EFC1B275B4200AE76DA /* Main.storyboard */,
+				7E0B0EFF1B275B4200AE76DA /* Images.xcassets */,
+				7E0B0F011B275B4200AE76DA /* LaunchScreen.xib */,
+				7E0B0EEF1B275B4200AE76DA /* Supporting Files */,
+			);
+			path = shipioEampleProject;
+			sourceTree = "<group>";
+		};
+		7E0B0EEF1B275B4200AE76DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E0B0EF01B275B4200AE76DA /* Info.plist */,
+				7E0B0EF11B275B4200AE76DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E0B0F0B1B275B4200AE76DA /* shipioEampleProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E0B0F0E1B275B4200AE76DA /* shipioEampleProjectTests.m */,
+				7E0B0F0C1B275B4200AE76DA /* Supporting Files */,
+			);
+			path = shipioEampleProjectTests;
+			sourceTree = "<group>";
+		};
+		7E0B0F0C1B275B4200AE76DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E0B0F0D1B275B4200AE76DA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E0B0EEB1B275B4200AE76DA /* shipioEampleProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E0B0F121B275B4200AE76DA /* Build configuration list for PBXNativeTarget "shipioEampleProject" */;
+			buildPhases = (
+				7E0B0EE81B275B4200AE76DA /* Sources */,
+				7E0B0EE91B275B4200AE76DA /* Frameworks */,
+				7E0B0EEA1B275B4200AE76DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shipioEampleProject;
+			productName = shipioEampleProject;
+			productReference = 7E0B0EEC1B275B4200AE76DA /* shipioEampleProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E0B0F071B275B4200AE76DA /* shipioEampleProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E0B0F151B275B4200AE76DA /* Build configuration list for PBXNativeTarget "shipioEampleProjectTests" */;
+			buildPhases = (
+				7E0B0F041B275B4200AE76DA /* Sources */,
+				7E0B0F051B275B4200AE76DA /* Frameworks */,
+				7E0B0F061B275B4200AE76DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E0B0F0A1B275B4200AE76DA /* PBXTargetDependency */,
+			);
+			name = shipioEampleProjectTests;
+			productName = shipioEampleProjectTests;
+			productReference = 7E0B0F081B275B4200AE76DA /* shipioEampleProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E0B0EE41B275B4200AE76DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Roman Mochalov";
+				TargetAttributes = {
+					7E0B0EEB1B275B4200AE76DA = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					7E0B0F071B275B4200AE76DA = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 7E0B0EEB1B275B4200AE76DA;
+					};
+				};
+			};
+			buildConfigurationList = 7E0B0EE71B275B4200AE76DA /* Build configuration list for PBXProject "shipioEampleProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E0B0EE31B275B4200AE76DA;
+			productRefGroup = 7E0B0EED1B275B4200AE76DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E0B0EEB1B275B4200AE76DA /* shipioEampleProject */,
+				7E0B0F071B275B4200AE76DA /* shipioEampleProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E0B0EEA1B275B4200AE76DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E0B0EFE1B275B4200AE76DA /* Main.storyboard in Resources */,
+				7E0B0F031B275B4200AE76DA /* LaunchScreen.xib in Resources */,
+				7E0B0F001B275B4200AE76DA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0B0F061B275B4200AE76DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E0B0EE81B275B4200AE76DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E0B0EF51B275B4200AE76DA /* AppDelegate.m in Sources */,
+				7E0B0EF81B275B4200AE76DA /* MasterViewController.m in Sources */,
+				7E0B0EF21B275B4200AE76DA /* main.m in Sources */,
+				7E0B0EFB1B275B4200AE76DA /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0B0F041B275B4200AE76DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E0B0F0F1B275B4200AE76DA /* shipioEampleProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E0B0F0A1B275B4200AE76DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E0B0EEB1B275B4200AE76DA /* shipioEampleProject */;
+			targetProxy = 7E0B0F091B275B4200AE76DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E0B0EFC1B275B4200AE76DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E0B0EFD1B275B4200AE76DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E0B0F011B275B4200AE76DA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E0B0F021B275B4200AE76DA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E0B0F101B275B4200AE76DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E0B0F111B275B4200AE76DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E0B0F131B275B4200AE76DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = shipioEampleProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E0B0F141B275B4200AE76DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = shipioEampleProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7E0B0F161B275B4200AE76DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = shipioEampleProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shipioEampleProject.app/shipioEampleProject";
+			};
+			name = Debug;
+		};
+		7E0B0F171B275B4200AE76DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = shipioEampleProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shipioEampleProject.app/shipioEampleProject";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E0B0EE71B275B4200AE76DA /* Build configuration list for PBXProject "shipioEampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E0B0F101B275B4200AE76DA /* Debug */,
+				7E0B0F111B275B4200AE76DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E0B0F121B275B4200AE76DA /* Build configuration list for PBXNativeTarget "shipioEampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E0B0F131B275B4200AE76DA /* Debug */,
+				7E0B0F141B275B4200AE76DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E0B0F151B275B4200AE76DA /* Build configuration list for PBXNativeTarget "shipioEampleProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E0B0F161B275B4200AE76DA /* Debug */,
+				7E0B0F171B275B4200AE76DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E0B0EE41B275B4200AE76DA /* Project object */;
+}
